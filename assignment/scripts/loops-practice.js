@@ -54,17 +54,22 @@ console.log('Some stars:');
 for (let i=0; i<5; i++) {
   console.log('for loop', stars[ i ]);
 }
-
+console.log('Some stars');
 // 3. While loops
 console.log('---- 3. While loop ----');
 
 // 3.a. TODO: Write a while loop to console.log each star in the 'stars' array
 console.log('Some stars using while:');
-let i = index;
-const max = 5;
-while( i<stars) {
-  console.log( 'while loop stars:', stars[ i ]);
-  index=i++;
+
+
+// trying some stuff. nothing i try to add the while loop is working.
+let i = 0;
+let array = stars.length;
+const arrayLength = [4];
+while(i < arrayLength ) {
+   let val = array[i];
+   i++;
+   console.log( 'while loop:', stars );
 }
 
 
