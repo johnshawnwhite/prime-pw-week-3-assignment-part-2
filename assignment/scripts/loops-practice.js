@@ -74,7 +74,7 @@ console.log('count from 0 to 5');
 let count = ['0', '1', '2', '3', '4', '5'];
 let y = 0;
 while (y< count.length){
-console.log(count[y]);
+console.log(y);
 y++;
 }
 
@@ -82,7 +82,7 @@ y++;
 console.log('count backwards from 10 to 5');
 let backwards = ['10', '9', '8', '7', '6', '5'];
 let v = 10;
-while (v>backwards.length){
-  console.log(backwards[v]);
-  v--;
+while (v>4){
+console.log(v);
+v--;
 }
