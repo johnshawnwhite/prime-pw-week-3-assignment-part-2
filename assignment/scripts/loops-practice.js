@@ -40,7 +40,10 @@ for (let i=0; i<evennumbers.length; i++) {
 
 // 1.d. (STRETCH) TODO: Write a for loop to do a counddown from 5 to 0
 console.log('STRETCH: countdown from 5 to 0');
-
+console.log('count from 5 to 0');
+for (let i=0; i<6; i++) {
+  console.log(i);
+}
 
 // 2. For of loops
 console.log('---- 2. For Of loop ----');
@@ -48,13 +51,23 @@ let stars = ['Polaris', 'Gacrux', 'Formalhaut', 'Rigel', 'Deneb'];
 
 // 2.a. TODO: Write a for of loop to console.log each star in the 'stars' array
 console.log('Some stars:');
-
+for (let i=0; i<5; i++) {
+  console.log('for loop', stars[ i ]);
+}
 
 // 3. While loops
 console.log('---- 3. While loop ----');
 
 // 3.a. TODO: Write a while loop to console.log each star in the 'stars' array
 console.log('Some stars using while:');
+let i = index;
+const max = 5;
+while( i<stars) {
+  console.log( 'while loop stars:', stars[ i ]);
+  index=i++;
+}
+
+
 
 // 3.b. TODO: Write a while loop to console.log the numbers from 0 to 5
 console.log('count from 0 to 5');
