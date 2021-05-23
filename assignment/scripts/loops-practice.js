@@ -64,18 +64,25 @@ console.log('Some stars using while:');
 
 // trying some stuff. nothing i try to add the while loop is working.
 let i = 0;
-let array = stars.length;
-const arrayLength = [4];
-while(i < arrayLength ) {
-   let val = array[i];
+while(i < stars.length) {
+console.log('which loop', stars[i]);
    i++;
-   console.log( 'while loop:', stars );
 }
-
-
 
 // 3.b. TODO: Write a while loop to console.log the numbers from 0 to 5
 console.log('count from 0 to 5');
+let count = ['0', '1', '2', '3', '4', '5'];
+let y = 0;
+while (y< count.length){
+console.log(count[y]);
+y++;
+}
 
 // 3.c. TODO: Write a while loop to console.log the numbers from 10 to 5
 console.log('count backwards from 10 to 5');
+let backwards = ['10', '9', '8', '7', '6', '5'];
+let v = 10;
+while (v>backwards.length){
+  console.log(backwards[v]);
+  v--;
+}
